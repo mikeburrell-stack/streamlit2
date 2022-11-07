@@ -218,4 +218,6 @@ df = pd.DataFrame(forecast)
 
 df2 = df.transpose()
 
+st.table(df2)
+
 
