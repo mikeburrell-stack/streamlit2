@@ -61,7 +61,11 @@ number_of_invoices = 20
 
 bank_base_rate = .66 # was 0.36
 
-bank_one_off_fee = 0.015 # was 0
+bank_one_off_fee = st.text_input("Bank Fee", 0.015)
+
+bank_one_off_fee = float(bank_one_off_fee)
+
+# bank_one_off_fee = 0.015 # was 0
 
 contingency_reserve = 0.2
 
