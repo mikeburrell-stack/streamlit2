@@ -56,7 +56,7 @@ forex_rate = ZMW#15.537949 #Must be 'live'
 zar_forex_rate = st.selectbox("Forex: ",
                      ['ZAR', 'ZMW', 'MZN', 'BWP'])
 
-zar_forex_rate = data['rates'][string(zar_forex_rate)]
+zar_forex_rate = data['rates'][str(zar_forex_rate)]
 
 # zar_forex_rate = ZAR
 
