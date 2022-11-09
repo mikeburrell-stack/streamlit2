@@ -62,6 +62,8 @@ print(zar_forex_rate)
 
 # zar_forex_rate = ZAR
 
+st.write(zar_forex_rate)
+
 facility_amount = 20_000_000
 
 number_of_invoices = 20
