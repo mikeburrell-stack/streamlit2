@@ -34,9 +34,14 @@ st.write(""" # Flow Forecast
 My first app """)
 
 add_selectbox = st.sidebar.selectbox(
-    "How would you like to be contacted?",
+    "How would you like to be contacted? https://www.supplychainfinance.biz/ ",
     ("Email", "Home phone", "Mobile phone")
 )
+
+from PIL import Image
+image = Image.open('logo.png')
+
+st.image(image, caption='Sunrise by the mountains')
 
 import requests
 
