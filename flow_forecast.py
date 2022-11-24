@@ -41,7 +41,7 @@ st.sidebar.info("Read more about us: https://www.supplychainfinance.biz/", icon=
 from PIL import Image
 image = Image.open('logo.png')
 
-st.image(image, caption='logo')
+st.image(image)
 
 
 st.write(""" # Summary
@@ -49,7 +49,7 @@ Data """)
 
 image2 = Image.open('bank.png')
 
-st.image(image2, caption='bank')
+st.image(image2)
 
 
 
