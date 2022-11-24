@@ -58,7 +58,7 @@ st.markdown(" - Effective monthly cost: 7.29")
 st.markdown(" ### Statistics for Flow:")
 st.markdown(" - Fee earned: R10 581 142.53% ")
 
-st.markdown(" ## Cash Flow ")
+# st.markdown(" ## Cash Flow ")
 
 import requests
 
@@ -258,14 +258,14 @@ df = pd.DataFrame(forecast)
 
 df2 = df.transpose()
 
-st.table(df2)
-AgGrid(df)
+# st.table(df2)
+# AgGrid(df)
 
 import plotly.express as px
 
-fig = px.line(df, title = "Cash Flow Forecast")
+# fig = px.line(df, title = "Cash Flow Forecast")
 
-st.markdown(" ## Graphs ")
-st.plotly_chart(fig)
+# st.markdown(" ## Graphs ")
+# st.plotly_chart(fig)
 
 
