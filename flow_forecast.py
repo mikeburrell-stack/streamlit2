@@ -85,11 +85,11 @@ zar_forex_rate = st.selectbox("Forex: ",
 
 zar_forex_rate = data['rates'][str(zar_forex_rate)]
 
-# print(zar_forex_rate)
+print(zar_forex_rate)
 
 zar_forex_rate = ZAR
 
-# st.write(f"Forex = {zar_forex_rate}")
+st.write(f"Forex = {zar_forex_rate}")
 
 facility_amount = 20_000_000
 
@@ -161,7 +161,7 @@ for i in range(37):
 bank_monthly_cash_flow = []
 
 
-print("Start for loop")
+# print("Start for loop")
 
 supplier_row_19 = []
 
