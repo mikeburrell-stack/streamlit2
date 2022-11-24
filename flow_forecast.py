@@ -30,11 +30,12 @@ To Do:
 import streamlit as st
 
 st.sidebar.markdown(" ## Cash Flow Forecast - Summary ")
-st.sidebar.markdown(""" The Flow Facilitators Platform aims to: 
-                    - Assist African suppliers to get early payment from corporates
-                    - Help suppliers with reasonable funding rates
-                    - Allow financiers to fund smaller entrepreneurs and companies with less risk
-                    - Improve working capital management for corporates """)              
+st.sidebar.markdown(" The Flow Facilitators Platform aims to:")
+st.sidebar.markdown(" * Assist African suppliers to get early payment from corporates")
+st.sidebar.markdown(" - Help suppliers with reasonable funding rates")
+st.sidebar.markdown(" - Allow financiers to fund smaller entrepreneurs and companies with less risk")
+st.sidebar.markdown(" - Improve working capital management for corporates")                    
+         
 st.sidebar.info("Read more about us: https://www.supplychainfinance.biz/", icon="ℹ️")
 
 from PIL import Image
