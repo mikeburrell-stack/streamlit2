@@ -31,7 +31,7 @@ import streamlit as st
 
 st.sidebar.markdown(" ## Cash Flow Forecast - Summary ")
 st.sidebar.markdown(" The Flow Facilitators Platform aims to:")
-st.sidebar.markdown(" * Assist African suppliers to get early payment from corporates")
+st.sidebar.markdown(" - Assist African suppliers to get early payment from corporates")
 st.sidebar.markdown(" - Help suppliers with reasonable funding rates")
 st.sidebar.markdown(" - Allow financiers to fund smaller entrepreneurs and companies with less risk")
 st.sidebar.markdown(" - Improve working capital management for corporates")                    
@@ -41,16 +41,16 @@ st.sidebar.info("Read more about us: https://www.supplychainfinance.biz/", icon=
 from PIL import Image
 image = Image.open('logo.png')
 
-st.image(image, caption='Sunrise by the mountains')
+st.image(image, caption='logo')
 
 
-st.write(""" # Flow Forecast
-My first app """)
+st.write(""" # Summary
+Data """)
 
-add_selectbox = st.sidebar.selectbox(
-    "How would you like to be contacted?  ",
-    ("Email", "Home phone", "Mobile phone")
-)
+image2 = Image.open('bank.png')
+
+st.image(image2, caption='bank')
+
 
 
 
