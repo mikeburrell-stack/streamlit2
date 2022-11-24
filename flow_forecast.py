@@ -33,8 +33,10 @@ import streamlit as st
 st.write(""" # Flow Forecast
 My first app """)
 
-with st.sidebar:
-    my_component(greeting="hello")
+add_selectbox = st.sidebar.selectbox(
+    "How would you like to be contacted?",
+    ("Email", "Home phone", "Mobile phone")
+)
 
 import requests
 
