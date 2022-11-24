@@ -33,6 +33,9 @@ import streamlit as st
 st.write(""" # Flow Forecast
 My first app """)
 
+with st.sidebar:
+    my_component(greeting="hello")
+
 import requests
 
 
