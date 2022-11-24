@@ -259,4 +259,9 @@ df2 = df.transpose()
 st.table(df2)
 AgGrid(df)
 
+import plotly.express as px
+
+fig = px.line(df, title = data)
+st.plotly_chart(fig)
+
 
