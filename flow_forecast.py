@@ -261,7 +261,7 @@ AgGrid(df)
 
 import plotly.express as px
 
-fig = px.line(df,x = "Month", title = "Cash Flow Forecast")
+fig = px.line(df, title = "Cash Flow Forecast")
 
 
 st.plotly_chart(fig)
