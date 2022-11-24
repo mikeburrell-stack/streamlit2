@@ -39,17 +39,18 @@ st.sidebar.markdown(" - Improve working capital management for corporates")
 st.sidebar.info("Read more about us: https://www.supplychainfinance.biz/", icon="ℹ️")
 
 from PIL import Image
-image = Image.open('logo.png')
+image1 = Image.open('logo.png')
 
-st.image(image)
-
+# st.image(image)
+st.image([image1,image2]) 
 
 st.write(""" # Summary
 Data """)
 
 image2 = Image.open('bank.png')
 
-st.image(image2)
+# st.image(image2)
+
 
 
 
