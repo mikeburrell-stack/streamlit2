@@ -85,11 +85,11 @@ zar_forex_rate = st.selectbox("Forex: ",
 
 zar_forex_rate = data['rates'][str(zar_forex_rate)]
 
-print(zar_forex_rate)
+# print(zar_forex_rate)
 
-# zar_forex_rate = ZAR
+zar_forex_rate = ZAR
 
-st.write(f"Forex = {zar_forex_rate}")
+# st.write(f"Forex = {zar_forex_rate}")
 
 facility_amount = 20_000_000
 
