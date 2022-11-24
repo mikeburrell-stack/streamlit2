@@ -56,7 +56,7 @@ st.markdown(" ### Statistics for Supplier:")
 st.markdown(" - Discount Allowed: 14.95")
 st.markdown(" - Effective monthly cost: 7.29")
 st.markdown(" ### Statistics for Flow:")
-st.markdown(" - Fee earned: R10 581 142.53% ")
+st.markdown(" - Fee earned: R10 581 142.53 ")
 
 # st.markdown(" ## Cash Flow ")
 
