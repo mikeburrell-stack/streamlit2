@@ -58,7 +58,7 @@ st.markdown(" - Effective monthly cost: 7.29")
 st.markdown(" ### Statistics for Flow:")
 st.markdown(" - Fee earned: R10 581 142.53% ")
 
-
+st.markdown(" ## Cash Flow ")
 
 import requests
 
@@ -265,7 +265,7 @@ import plotly.express as px
 
 fig = px.line(df, title = "Cash Flow Forecast")
 
-
+st.markdown(" ## Graphs ")
 st.plotly_chart(fig)
 
 
