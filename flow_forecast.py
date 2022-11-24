@@ -261,7 +261,7 @@ AgGrid(df)
 
 import plotly.express as px
 
-fig = px.line(df, title = data)
+fig = px.line(df, title = "data")
 st.plotly_chart(fig)
 
 
