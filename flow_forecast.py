@@ -29,19 +29,29 @@ To Do:
 
 import streamlit as st
 
-
-st.write(""" # Flow Forecast
-My first app """)
-
-add_selectbox = st.sidebar.selectbox(
-    "How would you like to be contacted? https://www.supplychainfinance.biz/ ",
-    ("Email", "Home phone", "Mobile phone")
-)
+st.sidebar.markdown(" ## Cash Flow Forecast - Summary ")
+st.sidebar.markdown(''' The Flow Facilitators Platform aims to: 
+                    - Assist African suppliers to get early payment from corporates
+                    - Help suppliers with reasonable funding rates
+                    - Allow financiers to fund smaller entrepreneurs and companies with less risk
+                    - Improve working capital management for corporates''' )              
+st.sidebar.info("Read more about us: https://www.supplychainfinance.biz/", icon="ℹ️")
 
 from PIL import Image
 image = Image.open('logo.png')
 
 st.image(image, caption='Sunrise by the mountains')
+
+
+st.write(""" # Flow Forecast
+My first app """)
+
+add_selectbox = st.sidebar.selectbox(
+    "How would you like to be contacted?  ",
+    ("Email", "Home phone", "Mobile phone")
+)
+
+
 
 import requests
 
